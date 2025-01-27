@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+
+    <!-- Link to External CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="js/bootstrap.bundle.js"></script>
+
+</head>
+<body>
+	<!-- Navbar -->
+		<header>
+			<div class="header_top_bar">
+				<div class="container elementor-container">
+					<div class="row">
+						<div class="col-sm-4">
+						</div>	
+						<div class="col-sm-8 topbar-right">	
+							<aside class="widget widget_text">
+								<div class="textwidget">
+									<ul class="top_bar_info clearfix">
+										<li><i class="fa fa-phone"></i> 0123456789</li>
+										<li class="hidden-info"><i class="fa fa-map-marker"></i> 1010 Moon ave, New York, NY US</li> 
+									</ul>
+								</div>	
+							</aside>										
+						</div>
+					</div>	
+				</div>	
+			</div>
+	        <!-- Navbar -->
+	        <nav class="navbar navbar-expand-lg">
+	            <div class="container elementor-container">
+	                <a class="navbar-brand" href="/">
+	                	<img src="imges/logo.jpg" alt="logo" class="main-logo">
+	                </a>
+	                <div class="collapse navbar-collapse justify-content-end menu main-navbar" id="navbarNavDropdown">
+	                    <ul class="navbar-nav">
+	                        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+	                        <li class="nav-item"><a class="nav-link " href="/About">Blogs</a></li>
+	                        <li class="nav-item"><a class="nav-link" href="/B2C/Support">Destinations</a></li>
+	                        <li class="nav-item"><a class="nav-link" href="/Contactus">Contact Us</a></li>
+	                    </ul>
+	                </div>	
+	                <div class="doubledeck_btn float-right">
+	                    <div class="login_content" id="divUserOut">
+	                        <div class="btn-group" role="group" aria-label="Basic example">
+	                            <button type="button" class="btn_login" onclick=""> 
+	                            	<i class="la la-user mr-5"></i><span class="dismax-none">Login</span>
+	                           	</button>
+	                        </div>
+	                    </div>
+	                </div>                
+	            </div>
+	        </nav>
+	        <!-- Navbar -->
+	    </header>
+	<!-- Navbar End -->
+
+	<!-- Home Search -->
+	<section class="__HomeSearch">
+		<div class="container elementor-container">
+			<div class="htl_search_content">
+                <h1>The Perfect Beachfront Destination</h1>
+                <h4 class="sub-heading">Experience a refreshing approach to your stay at The Beach Hotel</h4>
+            </div>
+            <div class="htl_search_panel">
+            	<div class="col-sm-12 col-12">
+            		<div class="row">
+            			<div class="col-sm-3">
+            				<div class="htl_selectcity">
+            					<i class="las la-city"></i><span class="lbl_input">Enter the City Name</span>
+            					<div class="htl_location"> 
+            						<span class="htl_city">New Delhi</span> 
+            						<span class="htl_country"> India
+            					</span>
+                				</div>
+            				</div>
+            			</div>
+            			<div class="col-sm-2">
+            				<div class="htl_selectcity">
+            					<i class="las la-calendar"></i><span class="lbl_input">Check In</span>
+            					<div class="htl_dates" id="htl_dates">
+					                <p> 
+					                	<span class="clsdate" id="">23</span>
+					                	<span class="clsmnth" id="">Jan 2025</span> 
+					                </p>
+					                <p class="c-day" id="">Thursday</p>
+					            </div>
+            				</div>
+            			</div>
+            			<div class="col-sm-2">
+            				<div class="htl_selectcity">
+            					<i class="las la-calendar"></i><span class="lbl_input">Check Out</span>
+            					<div class="htl_dates" id="htl_dates">
+					                <p> 
+					                	<span class="clsdate" id="">24</span>
+					                	<span class="clsmnth" id="">Jan 2025</span> 
+					                </p>
+					                <p class="c-day" id="">Friday</p>
+					            </div>
+            				</div>
+            			</div>
+            			<div class="col-sm-3">
+            				<div class="htl_selectcity border-right-none">
+            					<i class="las la-building"></i><span class="lbl_input">Room & Guests</span>
+            					<div class="htl_dates" id="htl_dates">
+					                <p> 
+					                	<span class="appendRight10">
+					                		<span class="clsroomcount" id="guestroom">1</span>
+					                		<span class="clstxt"> Room </span>
+					                		<span class="clsroomcount" id="guestcount">2</span>
+											<span class="clstxt"> Guests</span>
+					                	</span>
+					             	</p>
+					            </div>
+            				</div>
+            			</div>
+            			<div class="col-sm-2">
+            				<button type="submit" class="btn_color1">Search Hotels</button>
+            			</div>
+            		</div>
+            	</div>	
+		</div>
+	</section>
+	<!-- Home Search End -->
+
+	<!-- Offers for you -->
+	<section class="__offerssection">
+		<div class="container elementor-container">
+			<h2>Offers to inspire you</h2>
+			<div class="col-sm-12 col-12">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="boxes-icon">
+							<img src="imges/offer-box-1.jpg" alt="images">
+						</div>
+						<div class="content-inner">
+							<h4 class="title">Family Escape</h4>			
+						</div>
+						<div class="iconbox-read">
+							<a href="/" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="boxes-icon">
+							<img src="imges/offer-box-2.jpg" alt="images">
+						</div>
+						<div class="content-inner">
+							<h4 class="title">Business Trip</h4>			
+						</div>
+						<div class="iconbox-read">
+							<a href="/" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="boxes-icon">
+							<img src="imges/offer-box-3.jpg" alt="images">
+						</div>
+						<div class="content-inner">
+							<h4 class="title">Romance</h4>			
+						</div>
+						<div class="iconbox-read">
+							<a href="/" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Offers for you End -->
+
+	<!-- Offers for you -->
+	<section class="__roomsection">
+		<div class="container elementor-container">
+			<h2>Our rooms & suites</h2>
+			<div class="col-sm-12 col-12">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="item_card">
+							<div class="item-box">
+								<figure>
+									<img src="imges/room-hotel-1.jpeg" alt="images">
+								</figure>
+							</div>
+							<div class="item-text">
+								<h3 class="heading-title">
+									Classic Room
+								</h3>
+								<div class="five-stars-container">
+									<span class="five-stars">
+										<img src="Imges/Rating4.png" class="lazy" loading="lazy">
+									</span>
+								</div>
+								<div class="clstotlcount">
+									<div class="col-sm-12 col-12">
+										<div class="row">
+											<div class="col-sm-6">
+												<span class="adult_count">
+													<i class="las la-user-circle"></i><span>2 Adults</span>
+												</span>	
+												<span class="child_count">
+													<i class="las la-child"></i><span>1 Children</span>
+												</span>
+											</div>
+											<div class="col-sm-6">
+												<span class="lbl_text">Total Fare
+												</span>
+												<span class="totl_fare">INR 28,499
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clsslectbtn">
+									<div class="row">
+										<div class="col-sm-6">
+											<span class="view_dets">View Details
+											</span>	
+										</div>
+										<div class="col-sm-6">
+											<button type="submit" class="btn_color1">Book Now</button>
+										</div>
+									</div>
+							    </div>	
+						    </div>
+					    </div>
+                    </div>
+					<div class="col-sm-4">
+						<div class="item_card">
+							<div class="item-box">
+								<figure>
+									<img src="imges/room-hotel-2.jpg" alt="images">
+								</figure>
+							</div>
+							<div class="item-text">
+								<h3 class="heading-title">
+									Regan View
+								</h3>
+								<div class="five-stars-container">
+									<span class="five-stars">
+										<img src="Imges/Rating4.png" class="lazy" loading="lazy">
+									</span>
+								</div>
+								<div class="clstotlcount">
+									<div class="col-sm-12 col-12">
+										<div class="row">
+											<div class="col-sm-6">
+												<span class="adult_count">
+													<i class="las la-user-circle"></i><span>2 Adults</span>
+												</span>	
+												<span class="child_count">
+													<i class="las la-child"></i><span>1 Children</span>
+												</span>
+											</div>
+											<div class="col-sm-6">
+												<span class="lbl_text">Total Fare
+												</span>
+												<span class="totl_fare">INR 28,499
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clsslectbtn">
+									<div class="row">
+										<div class="col-sm-6">
+											<span class="view_dets">View Details
+											</span>	
+										</div>
+										<div class="col-sm-6">
+											<button type="submit" class="btn_color1">Book Now</button>
+										</div>
+									</div>
+							    </div>	
+						    </div>
+					    </div>
+					</div>
+					<div class="col-sm-4">
+						<div class="item_card">
+							<div class="item-box">
+								<figure>
+									<img src="imges/room-hotel-3.jpeg" alt="images">
+								</figure>
+							</div>
+							<div class="item-text">
+								<h3 class="heading-title">
+									Villa de regime
+								</h3>
+								<div class="five-stars-container">
+									<span class="five-stars">
+										<img src="Imges/Rating4.png" class="lazy" loading="lazy">
+									</span>
+								</div>
+								<div class="clstotlcount">
+									<div class="col-sm-12 col-12">
+										<div class="row">
+											<div class="col-sm-6">
+												<span class="adult_count">
+													<i class="las la-user-circle"></i><span>2 Adults</span>
+												</span>	
+												<span class="child_count">
+													<i class="las la-child"></i><span>1 Children</span>
+												</span>
+											</div>
+											<div class="col-sm-6">
+												<span class="lbl_text">Total Fare
+												</span>
+												<span class="totl_fare">INR 28,499
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clsslectbtn">
+									<div class="row">
+										<div class="col-sm-6">
+											<span class="view_dets">View Details
+											</span>	
+										</div>
+										<div class="col-sm-6">
+											<button type="submit" class="btn_color1">Book Now</button>
+										</div>
+									</div>
+							    </div>	
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+			</div>
+			<div class="col-sm-12c col-12">
+				<div class="row">
+					<div class="text-center col-sm-12 col-12">
+						<button type="text" class="btn_color-outer">View All Hotels</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Offers for you End -->
+
+	<!-- Our Services -->
+	<section class="__ourservices">
+		<div class="container elementor-container">
+			<h2>Let’s start with some benefits Hotel</h2>
+			<div class="__ourservices-content">
+				<div class="col-sm-12 col-12">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="services-img">
+								<img src="imges/icon-1.png">
+							</div>
+							<div class="content-inner">
+								<div class="sc-heading article_heading">
+								     <h4 style="color:#000000" class="heading__primary">Passionate Room</h4>
+                                </div>
+								<div class="desc-icon-box">
+									<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+								</div>
+							</div>
+						</div>						
+						<div class="col-sm-3">
+							<div class="services-img">
+								<img src="imges/icon-2.png">
+							</div>
+							<div class="content-inner">
+								<div class="sc-heading article_heading">
+								     <h4 style="color:#000000" class="heading__primary">Diverse Destinations</h4>
+                                </div>
+								<div class="desc-icon-box">
+									<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="services-img">
+								<img src="imges/icon-3.png">
+							</div>
+							<div class="content-inner">
+								<div class="sc-heading article_heading">
+								     <h4 style="color:#000000" class="heading__primary">Value for Money</h4>
+                                </div>
+								<div class="desc-icon-box">
+									<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="services-img">
+								<img src="imges/icon-4.png">
+							</div>
+							<div class="content-inner">
+								<div class="sc-heading article_heading">
+								     <h4 style="color:#000000" class="heading__primary">Beautiful Places</h4>
+                                </div>
+								<div class="desc-icon-box">
+									<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</section>
+	<!-- Our Services End -->
+
+	<!-- Top Destinations -->
+	<section class="__topdestinations">
+		<div class="container elementor-container">
+			<h2>Top Destinations</h2>
+			<div class="__ourdestinations">
+				<div class="col-sm-12 col-12">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="box-overall">
+								<div class="card-icons">
+									<img src=imges/p-1.png>
+								</div>
+								<div class="card-city">
+									<h4>Baku</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="box-overall">
+										<div class="card-icons-half">
+											<img src=imges/p-2.jpg>
+										</div>
+										<div class="card-city">
+											<h4>Dubai</h4>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="box-overall">
+										<div class="card-icons-half">
+											<img src=imges/p-3.jpg>
+										</div>
+										<div class="card-city">
+											<h4>Mauritius</h4>
+										</div>
+									</div>
+								</div>
+							</div>						
+						</div>				
+						<div class="col-sm-4">
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="box-overall">
+										<div class="card-icons-half">
+											<img src=imges/p-4.jpg>
+										</div>
+										<div class="card-city">
+											<h4>Italy</h4>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="box-overall">
+										<div class="card-icons-half">
+											<img src=imges/p-5.jpg>
+										</div>
+										<div class="card-city">
+											<h4>Sri Lanka</h4>
+										</div>
+									</div>
+								</div>
+							</div>						
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Top Destinations End -->
+
+	<!-- Our Testimonials -->
+	<section class="__ourtestimonials">
+		<div class="container">
+			<div class="home_client_wrpper">
+                        <h4>Our Testimonials</h4>
+                        <h2>What Our Clients Say About Us</h2>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <div class="client_two_content">
+                                        <p>
+                                            <i class="fa fa-quote-left"></i>
+                                            Using the ToBuyMyTicket platform was a breeze! I appreciated the convenience of being able to search and compare flights from the comfort of my own home. The booking process was straightforward, and I found some great deals that saved me money on my trip. Overall, a fantastic experience and I'll definitely be using it again for my future travels."
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="client_two_content">
+                                        <p>
+                                            <i class="fa fa-quote-left"></i>
+                                            Utilizing the ToBuyMyTicket platform was an absolute delight! The convenience of being able to search and compare flights right  was unparalleled. I was pleasantly surprised to discover some amazing deals that significantly slashed my travel expenses. Overall, it was a fantastic experience, and without a doubt, I'll be turning to ToBuyMyTicket again for all my future travel plans."
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <div class="client_two_content">
+                                        <p>
+                                            <i class="fa fa-quote-left"></i>
+                                            The experience of using ToBuyMyTicket was truly exceptional. Its seamless interface made browsing and comparing flights effortless, while the straightforward costs with no hidden charges provided peace of mind. Finding remarkable deals  was an unexpected bonus, enhancing my overall experience with ToBuyMyTicket. "
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+		</div>
+	</section>
+
+
+	<!-- Our Testimonials End -->
+
+
+</body>
+</html>
